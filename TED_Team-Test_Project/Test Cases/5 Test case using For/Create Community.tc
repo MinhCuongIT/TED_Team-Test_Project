@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f696a16-0945-4c7c-b8b0-8098779518bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6f27f09-e9d9-41fd-98d4-a1e866662f06</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
