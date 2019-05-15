@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Join_General</name>
+   <tag></tag>
+   <elementGuidId>794f655a-a7ed-45cb-a025-6751b0700a06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/section/section[2]/div[2]/a[2]/div/div[2]/span/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>style__StyledButton-sc-1g5bc3a-2 style__StyledOutlineButton-sc-1g5bc3a-7 style__StyledPrimaryOutlineButton-sc-1g5bc3a-8 jLsczK</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Join</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;layout__SecondaryPrimaryColumnGrid-sc-1v43im1-3 liRHVO&quot;]/section[@class=&quot;layout__SecondaryColumn-sc-1v43im1-6 ctZiQt&quot;]/section[@class=&quot;style__SidebarSection-hht6fk-4 dzLuvX&quot;]/div[@class=&quot;style__List-hht6fk-12 ekrAeb&quot;]/a[2]/div[@class=&quot;style__Row-sc-537zx7-1 dthITF&quot;]/div[@class=&quot;style__Actions-sc-537zx7-9 style__ChannelActions-sc-537zx7-10 iIrOaj&quot;]/span[1]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledOutlineButton-sc-1g5bc3a-7 style__StyledPrimaryOutlineButton-sc-1g5bc3a-8 jLsczK&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/section/section[2]/div[2]/a[2]/div/div[2]/span/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Join'])[2]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/button</value>
+   </webElementXpaths>
+</WebElementEntity>
