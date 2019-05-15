@@ -43,7 +43,7 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Spectrum c
 	//Nếu thấy nút thông báo thì bấm nút thông báo
 	if(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Spectrum community/button_notification_ring'),25,FailureHandling.OPTIONAL) == true){
 		
-		WebUI.rightClick(findTestObject('Object Repository/Page_Spectrum community/button_notification_ring'))
+		WebUI.click(findTestObject('Object Repository/Page_Spectrum community/button_notification_ring'))
 		
 	}
 }else{
