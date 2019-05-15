@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\MINHCU~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\5 Test case using For\\UpPost\\20190515_164656\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\MINHCU~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\5 Test case using If\\Leave Spectrum Comunity Using If\\20190515_190606\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/5 Test case using For/UpPost', new TestCaseBinding('Test Cases/5 Test case using For/UpPost',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/5 Test case using If/Leave Spectrum Comunity Using If', new TestCaseBinding('Test Cases/5 Test case using If/Leave Spectrum Comunity Using If',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

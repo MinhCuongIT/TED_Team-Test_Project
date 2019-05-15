@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in or sign up</name>
+   <name>button_Join community_Ok</name>
    <tag></tag>
-   <elementGuidId>5f946c1b-965d-465d-9887-87aa582c79a0</elementGuidId>
+   <elementGuidId>033c1d82-675e-4b41-9c0c-83162ebf64d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/div/div/div/a/button</value>
+         <value>//main[@id='main']/div[2]/div/div[2]/div/div/div/section/div/div[3]/span/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,11 +20,11 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-cy</name>
       <type>Main</type>
-      <value>navigation-splash-signin</value>
+      <value>profile-join-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,55 +38,34 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in or sign up</value>
+      <value>Join community</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[1]/div[@class=&quot;style__NavContainer-sc-1qb1h7s-30 gnOHxW&quot;]/div[@class=&quot;style__Tabs-sc-1qb1h7s-31 eHgJvY&quot;]/div[@class=&quot;style__AuthTab-sc-1qb1h7s-47 btxGOV&quot;]/a[1]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE&quot;]</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;view__ChartGrid-sc-12swjr9-0 fyLzUC&quot;]/div[@class=&quot;style__Collections-sc-839mu6-34 jWcRsz&quot;]/div[@class=&quot;style__CollectionWrapper-sc-839mu6-35 jDQNvP&quot;]/div[1]/div[@class=&quot;globals__FlexCol-sc-1izft7s-15 style__ListWithTitle-sc-839mu6-30 gAPDWa&quot;]/div[@class=&quot;globals__FlexRow-sc-1izft7s-14 style__ListWrapper-sc-839mu6-32 hJkIIp&quot;]/section[@class=&quot;style__ProfileCardWrapper-sc-839mu6-37 hCqkju&quot;]/div[@class=&quot;style__ProfileContainer-sc-1glfqlb-0 dawKyj&quot;]/div[@class=&quot;style__ActionsRowContainer-sc-1glfqlb-4 iLxJmN&quot;]/span[1]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div/div/div/div/a/button</value>
+      <value>//main[@id='main']/div[2]/div/div[2]/div/div/div/section/div/div[3]/span/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[2]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spectrum'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//span/button</value>
    </webElementXpaths>
 </WebElementEntity>
