@@ -1,99 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Post</name>
+   <name>input_Next_style__SearchInput-sc-40ekmb-8 dEhMvc</name>
    <tag></tag>
-   <elementGuidId>67fff310-1231-4693-9809-4053de799eac</elementGuidId>
+   <elementGuidId>b53f2b63-da4c-40c8-b7c0-5289ff665842</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/section[2]/section/div[3]/div[2]/div[2]/div[2]/button[2]</value>
+         <value>//input[@value='']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>type</name>
       <type>Main</type>
-      <value>4</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search for people...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-cy</name>
       <type>Main</type>
-      <value>mini-composer-post</value>
+      <value>dm-composer-search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE</value>
+      <value>style__SearchInput-sc-40ekmb-8 dEhMvc</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Post</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;layout__SecondaryPrimaryColumnGrid-sc-1v43im1-3 liRHVO&quot;]/section[@class=&quot;layout__PrimaryColumn-sc-1v43im1-5 jeyLrN&quot;]/section[@class=&quot;style__FeedsContainer-hht6fk-7 fKgMqe&quot;]/div[@class=&quot;style__Container-sc-91mjdb-0 dvAuaQ&quot;]/div[@class=&quot;style__BodyContainer-sc-91mjdb-1 eDDZYB&quot;]/div[@class=&quot;sc-iwsKbI fHODoY&quot;]/div[2]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk&quot;]/div[@class=&quot;style__Container-sc-40ekmb-0 koCRuI&quot;]/div[@class=&quot;style__ComposerContainer-sc-40ekmb-2 coDkpI&quot;]/div[@class=&quot;style__SearchInputWrapper-sc-40ekmb-7 tOnoD&quot;]/input[@class=&quot;style__SearchInput-sc-40ekmb-8 dEhMvc&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div/section[2]/section/div[3]/div[2]/div[2]/div[2]/button[2]</value>
+      <value>//div[@id='root']/div/div[4]/div[2]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drop image to upload'])[1]/following::button[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='vumanhxeko'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='·'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New message'])[4]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

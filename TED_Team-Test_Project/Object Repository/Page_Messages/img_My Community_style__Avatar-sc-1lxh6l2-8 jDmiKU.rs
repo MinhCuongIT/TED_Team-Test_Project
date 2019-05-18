@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Post</name>
+   <name>img_My Community_style__Avatar-sc-1lxh6l2-8 jDmiKU</name>
    <tag></tag>
-   <elementGuidId>67fff310-1231-4693-9809-4053de799eac</elementGuidId>
+   <elementGuidId>93e8489c-9a27-4c64-b5f0-81284c264212</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/section[2]/section/div[3]/div[2]/div[2]/div[2]/button[2]</value>
+         <value>//div[@id='root']/div/div/div[2]/div[11]/a/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>src</name>
       <type>Main</type>
-      <value>4</value>
+      <value>https://spectrum.imgix.net/communities/-Kh6RfPYjmSaIWbkck8i/Twitter%20Profile.png.0.6225566835336693?w=256&amp;h=256&amp;dpr=2&amp;auto=compress&amp;expires=1558285200000&amp;ixlib=js-1.2.1&amp;s=8305b7abfafd25fe977cf11397607026</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-cy</name>
+      <name>size</name>
       <type>Main</type>
-      <value>mini-composer-post</value>
+      <value>36</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE</value>
+      <value>style__Avatar-sc-1lxh6l2-8 jDmiKU</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Post</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;layout__SecondaryPrimaryColumnGrid-sc-1v43im1-3 liRHVO&quot;]/section[@class=&quot;layout__PrimaryColumn-sc-1v43im1-5 jeyLrN&quot;]/section[@class=&quot;style__FeedsContainer-hht6fk-7 fKgMqe&quot;]/div[@class=&quot;style__Container-sc-91mjdb-0 dvAuaQ&quot;]/div[@class=&quot;style__BodyContainer-sc-91mjdb-1 eDDZYB&quot;]/div[@class=&quot;sc-iwsKbI fHODoY&quot;]/div[2]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledPrimaryButton-sc-1g5bc3a-4 eRUuYE&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk&quot;]/div[@class=&quot;style__NavigationWrapper-sc-1lxh6l2-3 olYdK&quot;]/div[@class=&quot;style__NavigationGrid-sc-1lxh6l2-5 cyPoXN&quot;]/div[@class=&quot;style__AvatarGrid-sc-1lxh6l2-6 kWLEke&quot;]/a[@class=&quot;style__AvatarLink-sc-1lxh6l2-7 bWCJDQ&quot;]/img[@class=&quot;style__Avatar-sc-1lxh6l2-8 jDmiKU&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div/section[2]/section/div[3]/div[2]/div[2]/div[2]/button[2]</value>
+      <value>//div[@id='root']/div/div/div[2]/div[11]/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Community'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drop image to upload'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Community of Manh Vu'])[1]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='vumanhxeko'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spectrum'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='·'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a community'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://spectrum.imgix.net/communities/-Kh6RfPYjmSaIWbkck8i/Twitter%20Profile.png.0.6225566835336693?w=256&amp;h=256&amp;dpr=2&amp;auto=compress&amp;expires=1558285200000&amp;ixlib=js-1.2.1&amp;s=8305b7abfafd25fe977cf11397607026')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]</value>
+      <value>//div[11]/a/img</value>
    </webElementXpaths>
 </WebElementEntity>
