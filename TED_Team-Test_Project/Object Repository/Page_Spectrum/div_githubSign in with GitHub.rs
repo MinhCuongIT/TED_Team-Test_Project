@@ -3,7 +3,7 @@
    <description></description>
    <name>div_githubSign in with GitHub</name>
    <tag></tag>
-   <elementGuidId>aa4d7376-56bf-464e-8cc9-837d51c7c6d3</elementGuidId>
+   <elementGuidId>956361f3-2d13-4d87-b4fe-5549bb324184</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

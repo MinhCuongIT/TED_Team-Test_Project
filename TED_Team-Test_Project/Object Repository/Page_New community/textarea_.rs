@@ -3,7 +3,7 @@
    <description></description>
    <name>textarea_</name>
    <tag></tag>
-   <elementGuidId>0044a840-781c-49f1-a160-09bc75e7a96a</elementGuidId>
+   <elementGuidId>1c3f8495-cbe3-48cc-9de4-5c509e84e65e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>đ</value>
+      <value>Đ</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

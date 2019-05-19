@@ -3,7 +3,7 @@
    <description></description>
    <name>img_Explore_style__Img-u3znqr-3 kJsvJN</name>
    <tag></tag>
-   <elementGuidId>9b241f9c-e4e3-4130-9459-9eb44150d865</elementGuidId>
+   <elementGuidId>a4931bde-0bbf-4992-bc4b-092ab7e81bb1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -94,7 +94,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='my comunity'])[1]/preceding::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Community of Manh'])[1]/preceding::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

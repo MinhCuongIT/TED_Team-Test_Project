@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Sign in with GitHub</name>
    <tag></tag>
-   <elementGuidId>2f3629b1-4191-45ef-9a6c-6a2f2ad91539</elementGuidId>
+   <elementGuidId>1113d4f1-08af-4a0a-9e1e-a47f2d987c21</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

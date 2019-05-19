@@ -3,7 +3,7 @@
    <description></description>
    <name>textarea_Describe it in 140 characters or less_style__StyledTextArea-sc-17zryot-3 hSQZHk</name>
    <tag></tag>
-   <elementGuidId>a0821071-a1e2-4947-811c-ce32c5a9bc72</elementGuidId>
+   <elementGuidId>f9f14fde-6081-4b01-969a-1f8f431a1624</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

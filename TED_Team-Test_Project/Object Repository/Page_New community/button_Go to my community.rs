@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Go to my community</name>
    <tag></tag>
-   <elementGuidId>cfbc34b3-7b84-46f2-b19f-c8a2cc23dab3</elementGuidId>
+   <elementGuidId>a1f344cf-207e-40b7-b1af-2e2a32af35dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://spectrum.chat/my-comunity-2'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://spectrum.chat/create-a-community'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,5 +67,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a[2]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://spectrum.chat/create-new-community'])[1]/following::button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

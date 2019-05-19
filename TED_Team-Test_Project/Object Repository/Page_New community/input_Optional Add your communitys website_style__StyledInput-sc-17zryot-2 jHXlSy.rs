@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Optional Add your communitys website_style__StyledInput-sc-17zryot-2 jHXlSy</name>
    <tag></tag>
-   <elementGuidId>374a00ba-1416-4fa0-9d76-e7b13262d5c2</elementGuidId>
+   <elementGuidId>0a686536-1f57-4354-be6b-5638df069776</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ddd'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='add'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,5 +81,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[4]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::input[1]</value>
    </webElementXpaths>
 </WebElementEntity>

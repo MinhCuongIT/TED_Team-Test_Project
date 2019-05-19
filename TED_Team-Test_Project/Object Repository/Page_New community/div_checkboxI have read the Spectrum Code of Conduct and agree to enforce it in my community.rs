@@ -3,7 +3,7 @@
    <description></description>
    <name>div_checkboxI have read the Spectrum Code of Conduct and agree to enforce it in my community</name>
    <tag></tag>
-   <elementGuidId>e79dfbc3-d982-4775-862f-5679302b28da</elementGuidId>
+   <elementGuidId>5c8c18d6-754a-4be7-a024-2cfd41820cb7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ddd'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Describe it in 140 characters or less'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

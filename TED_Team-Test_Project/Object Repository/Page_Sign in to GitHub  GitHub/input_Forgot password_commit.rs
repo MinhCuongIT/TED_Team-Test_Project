@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Forgot password_commit</name>
    <tag></tag>
-   <elementGuidId>ad51b902-7e5e-4020-98bc-9fbedd7ed1a4</elementGuidId>
+   <elementGuidId>78bcebb9-8c37-41de-ba3f-0c7ff886483c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -109,5 +109,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='login']/form/div[3]/input[4]</value>
    </webElementXpaths>
 </WebElementEntity>

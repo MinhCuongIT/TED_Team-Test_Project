@@ -3,7 +3,7 @@
    <description></description>
    <name>svg_view-close</name>
    <tag></tag>
-   <elementGuidId>916ec004-a2d2-4518-907d-af5f7034c6e3</elementGuidId>
+   <elementGuidId>71143d79-c49b-44e3-bc21-71f7ea3b004a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

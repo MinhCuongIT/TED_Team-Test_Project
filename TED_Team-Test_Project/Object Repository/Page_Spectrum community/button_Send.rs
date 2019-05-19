@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Send</name>
    <tag></tag>
-   <elementGuidId>11e2c6ee-ffb5-44c6-a776-0dea30422619</elementGuidId>
+   <elementGuidId>fc7e4dc9-9560-4e3e-9596-c7630906691d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -59,14 +59,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gưll'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gưll'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

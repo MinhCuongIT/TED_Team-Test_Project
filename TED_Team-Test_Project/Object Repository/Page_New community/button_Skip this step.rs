@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Skip this step</name>
    <tag></tag>
-   <elementGuidId>889ce4d1-5c09-4267-b302-445624b1b0e7</elementGuidId>
+   <elementGuidId>10fb613e-0ce1-4359-937d-bea204a2f4bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

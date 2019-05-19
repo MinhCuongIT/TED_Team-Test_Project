@@ -3,11 +3,11 @@
    <description></description>
    <name>a_plusCreate a community</name>
    <tag></tag>
-   <elementGuidId>52b45d05-c8c2-4617-9ed6-24b7f97350bb</elementGuidId>
+   <elementGuidId>d5bb0cd9-274c-431a-b461-048f2db28eea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/div[11]/a</value>
+         <value>//div[@id='root']/div/div/div[2]/div[14]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/div[11]/a</value>
+      <value>//div[@id='root']/div/div/div[2]/div[14]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='my community'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Community'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[11]/a</value>
+      <value>//div[14]/a</value>
    </webElementXpaths>
 </WebElementEntity>

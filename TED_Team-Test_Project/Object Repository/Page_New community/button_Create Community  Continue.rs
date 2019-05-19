@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Create Community  Continue</name>
    <tag></tag>
-   <elementGuidId>d179c62a-1113-4c7d-a494-0b14a79e4a32</elementGuidId>
+   <elementGuidId>26ce5476-497b-4640-a8c9-0fbce0e5cf13</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
