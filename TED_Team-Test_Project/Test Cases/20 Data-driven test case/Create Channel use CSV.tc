@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Channel use CSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c3eec81-e8d2-4547-8dc9-635f1abc8680</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87a09238-e431-4ea8-b2e0-045fdae5cdb8</id>
+      <masked>false</masked>
+      <name>channel_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>268a3354-0ba7-43b9-837a-b6013e27ec8a</id>
+      <masked>false</masked>
+      <name>channel_detail</name>
+   </variable>
+</TestCaseEntity>

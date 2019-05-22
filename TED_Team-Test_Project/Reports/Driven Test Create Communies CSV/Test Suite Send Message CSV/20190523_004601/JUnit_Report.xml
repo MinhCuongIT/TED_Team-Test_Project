@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Send Message CSV" time="46" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Send Message CSV" tests="1" failures="0" errors="0" time="46" timestamp="2019-05-23 00:46:04" hostname="MinhCuong - 192.168.112.29" id="Test Suites/Driven Test Create Communies CSV/Test Suite Send Message CSV">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Send Message CSV\\20190523_004601"/>
+         <property name="logFiles" value="D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Send Message CSV\\20190523_004601\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MinhCuong - 192.168.112.29"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.112.29"/>
+         <property name="sessionId" value="bb881f31-a052-4eed-a626-d602bec3844d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/20 Data-driven test case/Send Message use CSV" classname="Test Cases/20 Data-driven test case/Send Message use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:46:04 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Send Message use CSV: Test Cases/20 Data-driven test case/Send Message use CSV
+
+2019-05-23 00:46:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:46:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:46:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-23 00:46:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:46:09 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:3000/"): Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:46:11 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:46:37 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:46:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:46:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:46:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:46:41 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/spectrum?tab=posts"): Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:46:43 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/span_blocked-user_click")): Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong")): Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:46:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Spectrum community/textarea_hell"), message): Text '' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:46:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:46:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/button_Send")): Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on
+
+2019-05-23 00:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-23 00:46:04 - [TEST_SUITE][PASSED] - Test Suite Send Message CSV: Test Cases/20 Data-driven test case/Send Message use CSV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

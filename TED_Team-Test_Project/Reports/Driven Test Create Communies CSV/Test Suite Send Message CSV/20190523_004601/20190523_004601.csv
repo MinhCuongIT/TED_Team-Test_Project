@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Send Message CSV,Firefox 66.0,,,2019-05-23 00:46:04,2019-05-23 00:46:50,46.285s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Send Message use CSV,Firefox 66.0,,,2019-05-23 00:46:04,2019-05-23 00:46:49,44.851s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 00:46:05,2019-05-23 00:46:09,4.553s,PASSED
+"navigateToUrl(""http://127.0.0.1:3000/"")",Firefox 66.0,,,2019-05-23 00:46:09,2019-05-23 00:46:11,1.582s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 00:46:11,2019-05-23 00:46:24,13.316s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 00:46:24,2019-05-23 00:46:37,12.631s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 00:46:37,2019-05-23 00:46:37,0.103s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 00:46:37,2019-05-23 00:46:37,0.176s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 00:46:37,2019-05-23 00:46:41,4.508s,PASSED
+"navigateToUrl(""http://localhost:3000/spectrum?tab=posts"")",Firefox 66.0,,,2019-05-23 00:46:41,2019-05-23 00:46:43,1.962s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/span_blocked-user_click""))",Firefox 66.0,,,2019-05-23 00:46:43,2019-05-23 00:46:47,3.842s,PASSED
+"click(findTestObject(""Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong""))",Firefox 66.0,,,2019-05-23 00:46:47,2019-05-23 00:46:48,0.859s,PASSED
+"setText(findTestObject(""Page_Spectrum community/textarea_hell""), message)",Firefox 66.0,,,2019-05-23 00:46:48,2019-05-23 00:46:49,0.470s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Send""))",Firefox 66.0,,,2019-05-23 00:46:49,2019-05-23 00:46:49,0.329s,PASSED

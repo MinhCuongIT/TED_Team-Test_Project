@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Create Channel CSV" time="290" tests="5" failures="0" errors="0">
+   <testsuite name="Test Suite Create Channel CSV" tests="5" failures="0" errors="0" time="290" timestamp="2019-05-23 00:06:30" hostname="MinhCuong - 192.168.112.29" id="Test Suites/Driven Test Create Communies CSV/Test Suite Create Channel CSV">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628"/>
+         <property name="logFiles" value="D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\execution0.log"/>
+         <property name="attachments" value="D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558544843207.png, D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558544899282.png, D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558544954004.png, D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558545014346.png, D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558545072325.png"/>
+         <property name="hostName" value="MinhCuong - 192.168.112.29"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.112.29"/>
+         <property name="sessionId" value="cbf16280-4ae9-4c33-9ca0-489d1ad4caae"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/20 Data-driven test case/Create Channel use CSV" classname="Test Cases/20 Data-driven test case/Create Channel use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:06:30 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Create Channel use CSV: Test Cases/20 Data-driven test case/Create Channel use CSV
+
+2019-05-23 00:06:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:06:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:06:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-23 00:06:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:06:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:06:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:06:41 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:06:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:06:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN")): Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:06:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/explore"): Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:06:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:06:57 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/Page_Explore/button_abc"), 25, OPTIONAL) == true): Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+
+2019-05-23 00:07:23 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+[[ATTACHMENT|D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558544843207.png]]
+
+2019-05-23 00:07:23 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:07:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/abc?tab=posts"): Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:07:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:07:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc community/button_Settings")): Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:07:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-23 00:07:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-23 00:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel")): Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:07:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/input_Channel Name_name"), channel_name): Text 'channel 001' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:07:30 - [MESSAGE][PASSED] - Text 'channel 001' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:07:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/textarea_ht"), channel_detail): Text 'This is detail of channel 001' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:07:30 - [MESSAGE][PASSED] - Text 'This is detail of channel 001' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:07:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel 7")): Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Create Channel use CSV" classname="Test Cases/20 Data-driven test case/Create Channel use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:07:31 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Create Channel use CSV: Test Cases/20 Data-driven test case/Create Channel use CSV
+
+2019-05-23 00:07:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:07:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:07:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:07:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:07:35 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:07:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:07:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:07:40 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:07:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:07:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:07:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN")): Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:07:51 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/explore"): Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:07:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:07:53 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/Page_Explore/button_abc"), 25, OPTIONAL) == true): Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+
+2019-05-23 00:08:19 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+[[ATTACHMENT|D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558544899282.png]]
+
+2019-05-23 00:08:19 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:08:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/abc?tab=posts"): Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:08:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:08:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc community/button_Settings")): Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:08:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-23 00:08:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-23 00:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel")): Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:08:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/input_Channel Name_name"), channel_name): Text 'channel 002' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:08:26 - [MESSAGE][PASSED] - Text 'channel 002' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:08:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/textarea_ht"), channel_detail): Text 'This is detail of channel 002' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:08:26 - [MESSAGE][PASSED] - Text 'This is detail of channel 002' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel 7")): Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Create Channel use CSV" classname="Test Cases/20 Data-driven test case/Create Channel use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:08:26 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Create Channel use CSV: Test Cases/20 Data-driven test case/Create Channel use CSV
+
+2019-05-23 00:08:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:08:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:08:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:08:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:08:30 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:08:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:08:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:08:36 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:08:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:08:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN")): Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:08:45 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/explore"): Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:08:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:08:48 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/Page_Explore/button_abc"), 25, OPTIONAL) == true): Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+
+2019-05-23 00:09:14 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+[[ATTACHMENT|D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558544954004.png]]
+
+2019-05-23 00:09:14 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:09:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/abc?tab=posts"): Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:09:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc community/button_Settings")): Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:09:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-23 00:09:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-23 00:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel")): Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:09:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/input_Channel Name_name"), channel_name): Text 'channel 003' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:09:22 - [MESSAGE][PASSED] - Text 'channel 003' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:09:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/textarea_ht"), channel_detail): Text 'This is detail of channel 003' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:09:23 - [MESSAGE][PASSED] - Text 'This is detail of channel 003' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel 7")): Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Create Channel use CSV" classname="Test Cases/20 Data-driven test case/Create Channel use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:09:23 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Create Channel use CSV: Test Cases/20 Data-driven test case/Create Channel use CSV
+
+2019-05-23 00:09:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:09:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:09:25 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:09:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:09:28 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:09:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:09:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:09:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:09:34 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:09:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:09:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN")): Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:09:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/explore"): Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:09:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:09:49 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/Page_Explore/button_abc"), 25, OPTIONAL) == true): Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+
+2019-05-23 00:10:14 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+[[ATTACHMENT|D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558545014346.png]]
+
+2019-05-23 00:10:14 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:10:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/abc?tab=posts"): Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:10:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc community/button_Settings")): Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:10:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-23 00:10:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-23 00:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel")): Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/input_Channel Name_name"), channel_name): Text 'channel 004' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:10:21 - [MESSAGE][PASSED] - Text 'channel 004' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/textarea_ht"), channel_detail): Text 'This is detail of channel 004' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:10:21 - [MESSAGE][PASSED] - Text 'This is detail of channel 004' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel 7")): Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Create Channel use CSV" classname="Test Cases/20 Data-driven test case/Create Channel use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:10:21 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Create Channel use CSV: Test Cases/20 Data-driven test case/Create Channel use CSV
+
+2019-05-23 00:10:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:10:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:10:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:10:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:10:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:10:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+2019-05-23 00:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:10:31 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:10:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:10:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN")): Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN' is clicked on
+
+2019-05-23 00:10:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/explore"): Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:10:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/explore' successfully
+
+2019-05-23 00:10:47 - [TEST_STEP][PASSED] - if (verifyElementNotPresent(findTestObject("Object Repository/Page_Explore/button_abc"), 25, OPTIONAL) == true): Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+
+2019-05-23 00:11:12 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Explore/button_abc' located by 'By.xpath: id("root")/div[@class="style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk"]/div[@class="style__NavigationWrapper-sc-1lxh6l2-3 olYdK"]/div[@class="style__NavigationGrid-sc-1lxh6l2-5 cyPoXN"]/div[@class="style__AvatarGrid-sc-1lxh6l2-6 kWLEke"]/a[@class="style__AvatarLink-sc-1lxh6l2-7 bWCJDQ"][count(. | //*[(text() = 'abc' or . = 'abc')]) = count(//*[(text() = 'abc' or . = 'abc')])]' is present after '25' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1451)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$4.call(Unknown Source)
+	at Create Channel use CSV.run(Create Channel use CSV:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558544788095.run(TempTestSuite1558544788095.groovy:35)
+)
+[[ATTACHMENT|D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Create Channel CSV\\20190523_000628\\1558545072325.png]]
+
+2019-05-23 00:11:12 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:11:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/abc?tab=posts"): Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:11:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/abc?tab=posts' successfully
+
+2019-05-23 00:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc community/button_Settings")): Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc community/button_Settings' is clicked on
+
+2019-05-23 00:11:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-23 00:11:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-23 00:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel")): Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel' is clicked on
+
+2019-05-23 00:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/input_Channel Name_name"), channel_name): Text 'channel 005' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:11:19 - [MESSAGE][PASSED] - Text 'channel 005' is set on object 'Object Repository/Page_abc settings/input_Channel Name_name'
+
+2019-05-23 00:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_abc settings/textarea_ht"), channel_detail): Text 'This is detail of channel 005' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:11:19 - [MESSAGE][PASSED] - Text 'This is detail of channel 005' is set on object 'Object Repository/Page_abc settings/textarea_ht'
+
+2019-05-23 00:11:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_abc settings/button_Create Channel 7")): Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on
+
+2019-05-23 00:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_abc settings/button_Create Channel 7' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-23 00:06:30 - [TEST_SUITE][PASSED] - Test Suite Create Channel CSV: Test Cases/20 Data-driven test case/Create Channel use CSV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

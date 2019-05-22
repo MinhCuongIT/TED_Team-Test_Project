@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Message use CSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c361abf-0c01-4561-bcd6-da1c88888218</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ebb9d3d9-8b28-4aac-8b75-d80cbe2cac0c</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

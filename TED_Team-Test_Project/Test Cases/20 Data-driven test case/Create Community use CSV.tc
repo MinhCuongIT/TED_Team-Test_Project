@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Community use CSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6468f381-2d90-4a93-b062-21df3248ddee</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5dc51f5d-dfba-42bd-87f3-94bcb09a7241</id>
+      <masked>false</masked>
+      <name>community_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d37f2806-8855-49c3-aa94-4aba3eb13b9a</id>
+      <masked>false</masked>
+      <name>describe</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eda61e29-74f3-47f6-a3c8-f2986ddace15</id>
+      <masked>false</masked>
+      <name>website</name>
+   </variable>
+</TestCaseEntity>

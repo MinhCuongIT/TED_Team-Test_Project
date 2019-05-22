@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Send Message CSV" time="277" tests="6" failures="0" errors="0">
+   <testsuite name="Test Suite Send Message CSV" tests="6" failures="0" errors="0" time="277" timestamp="2019-05-23 00:47:36" hostname="MinhCuong - 192.168.112.29" id="Test Suites/Driven Test Create Communies CSV/Test Suite Send Message CSV">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Send Message CSV\\20190523_004734"/>
+         <property name="logFiles" value="D:\\HCMUS DATA\\Tern2-4th\\CCDNCTPTPM\\BT\\HW2\\Project\\TED_Team-Test_Project\\TED_Team-Test_Project\\Reports\\Driven Test Create Communies CSV\\Test Suite Send Message CSV\\20190523_004734\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MinhCuong - 192.168.112.29"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.112.29"/>
+         <property name="sessionId" value="ba4c6f86-6d7d-4a7d-82bf-551dc42b3429"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/20 Data-driven test case/Send Message use CSV" classname="Test Cases/20 Data-driven test case/Send Message use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:47:36 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Send Message use CSV: Test Cases/20 Data-driven test case/Send Message use CSV
+
+2019-05-23 00:47:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:47:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:47:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-23 00:47:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:47:42 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:3000/"): Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:47:43 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:48:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:48:10 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:48:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:48:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:48:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/spectrum?tab=posts"): Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:48:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/span_blocked-user_click")): Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong")): Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:48:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Spectrum community/textarea_hell"), message): Text 'I used to bite my tongue and hold my breath' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:48:23 - [MESSAGE][PASSED] - Text 'I used to bite my tongue and hold my breath' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/button_Send")): Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on
+
+2019-05-23 00:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Send Message use CSV" classname="Test Cases/20 Data-driven test case/Send Message use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:48:24 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Send Message use CSV: Test Cases/20 Data-driven test case/Send Message use CSV
+
+2019-05-23 00:48:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:48:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:48:25 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:48:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:48:29 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:3000/"): Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:48:30 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:48:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:48:55 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:48:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:48:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:48:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:49:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/spectrum?tab=posts"): Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:49:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:49:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/span_blocked-user_click")): Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:49:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong")): Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Spectrum community/textarea_hell"), message): Text 'Scared to rock the boat and make a mess' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:49:10 - [MESSAGE][PASSED] - Text 'Scared to rock the boat and make a mess' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/button_Send")): Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on
+
+2019-05-23 00:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Send Message use CSV" classname="Test Cases/20 Data-driven test case/Send Message use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:49:10 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Send Message use CSV: Test Cases/20 Data-driven test case/Send Message use CSV
+
+2019-05-23 00:49:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:49:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:49:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:49:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:49:14 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:3000/"): Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:49:15 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:49:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:49:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:49:42 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:49:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:49:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:49:48 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/spectrum?tab=posts"): Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:49:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/span_blocked-user_click")): Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:49:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong")): Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:49:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Spectrum community/textarea_hell"), message): Text 'So I sat quietly, agreed politely' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:49:56 - [MESSAGE][PASSED] - Text 'So I sat quietly, agreed politely' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/button_Send")): Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on
+
+2019-05-23 00:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Send Message use CSV" classname="Test Cases/20 Data-driven test case/Send Message use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:49:56 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Send Message use CSV: Test Cases/20 Data-driven test case/Send Message use CSV
+
+2019-05-23 00:49:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:49:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:49:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:50:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:50:00 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:3000/"): Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:50:02 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:50:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:50:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:50:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:50:23 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:50:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:50:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:50:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/spectrum?tab=posts"): Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:50:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:50:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/span_blocked-user_click")): Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:50:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong")): Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:50:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Spectrum community/textarea_hell"), message): Text 'I guess that I forgot I had a choice' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:50:39 - [MESSAGE][PASSED] - Text 'I guess that I forgot I had a choice' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/button_Send")): Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on
+
+2019-05-23 00:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Send Message use CSV" classname="Test Cases/20 Data-driven test case/Send Message use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:50:40 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Send Message use CSV: Test Cases/20 Data-driven test case/Send Message use CSV
+
+2019-05-23 00:50:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:50:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:50:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:50:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:50:44 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:3000/"): Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:50:46 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:50:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:51:07 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:51:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:51:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:51:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:51:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/spectrum?tab=posts"): Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:51:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/span_blocked-user_click")): Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:51:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong")): Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:51:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Spectrum community/textarea_hell"), message): Text 'I let you push me past the breaking point' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:51:20 - [MESSAGE][PASSED] - Text 'I let you push me past the breaking point' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/button_Send")): Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on
+
+2019-05-23 00:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20 Data-driven test case/Send Message use CSV" classname="Test Cases/20 Data-driven test case/Send Message use CSV" status="PASSED">
+         <system-out><![CDATA[2019-05-23 00:51:21 - [TEST_CASE][PASSED] - Test Cases/20 Data-driven test case/Send Message use CSV: Test Cases/20 Data-driven test case/Send Message use CSV
+
+2019-05-23 00:51:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 00:51:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-23 00:51:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-23 00:51:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 00:51:25 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:3000/"): Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:51:27 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:3000/' successfully
+
+2019-05-23 00:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/button_Log in or sign up")): Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/button_Log in or sign up' is clicked on
+
+2019-05-23 00:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Spectrum/span_Sign in with GitHub")): Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum/span_Sign in with GitHub' is clicked on
+
+2019-05-23 00:51:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "minhcuongit"): Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:51:58 - [MESSAGE][PASSED] - Text 'minhcuongit' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2019-05-23 00:51:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_password"), "9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:51:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2019-05-23 00:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in to GitHub  GitHub/input_Forgot password_commit")): Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2019-05-23 00:52:03 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/spectrum?tab=posts"): Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:52:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/spectrum?tab=posts' successfully
+
+2019-05-23 00:52:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/span_blocked-user_click")): Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/span_blocked-user_click' is clicked on
+
+2019-05-23 00:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong")): Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong' is clicked on
+
+2019-05-23 00:52:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Spectrum community/textarea_hell"), message): Text 'I stood for nothing, so I fell for everything' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:52:12 - [MESSAGE][PASSED] - Text 'I stood for nothing, so I fell for everything' is set on object 'Object Repository/Page_Spectrum community/textarea_hell'
+
+2019-05-23 00:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Spectrum community/button_Send")): Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on
+
+2019-05-23 00:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Spectrum community/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-23 00:47:36 - [TEST_SUITE][PASSED] - Test Suite Send Message CSV: Test Cases/20 Data-driven test case/Send Message use CSV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

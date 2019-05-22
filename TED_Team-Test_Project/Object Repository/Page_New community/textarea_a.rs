@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_a</name>
+   <name>textarea_A</name>
    <tag></tag>
-   <elementGuidId>62f5ffe4-9b21-4688-9233-59a75213fee4</elementGuidId>
+   <elementGuidId>40a7bde0-9ca6-43d3-b7ad-fe120b7aa2a2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

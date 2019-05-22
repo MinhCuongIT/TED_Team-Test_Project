@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Create Channel CSV,Firefox 66.0,,,2019-05-23 00:06:30,2019-05-23 00:11:20,4m - 50.428s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Create Channel use CSV,Firefox 66.0,,,2019-05-23 00:06:30,2019-05-23 00:07:31,1m - 0.186s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 00:06:31,2019-05-23 00:06:36,4.868s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 00:06:36,2019-05-23 00:06:38,1.774s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 00:06:38,2019-05-23 00:06:40,1.833s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 00:06:40,2019-05-23 00:06:41,1.670s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 00:06:41,2019-05-23 00:06:41,0.082s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 00:06:41,2019-05-23 00:06:41,0.188s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 00:06:41,2019-05-23 00:06:50,8.384s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Firefox 66.0,,,2019-05-23 00:06:50,2019-05-23 00:06:55,4.666s,PASSED
+"navigateToUrl(""http://localhost:3000/explore"")",Firefox 66.0,,,2019-05-23 00:06:55,2019-05-23 00:06:57,2.747s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/Page_Explore/button_abc""), 25, OPTIONAL) == true)",Firefox 66.0,,,2019-05-23 00:06:57,2019-05-23 00:07:23,25.726s,PASSED
+else,Firefox 66.0,,,2019-05-23 00:07:23,2019-05-23 00:07:31,7.696s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Create Channel use CSV,Firefox 66.0,,,2019-05-23 00:07:31,2019-05-23 00:08:26,55.676s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 00:07:31,2019-05-23 00:07:35,3.912s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 00:07:35,2019-05-23 00:07:36,1.744s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 00:07:36,2019-05-23 00:07:38,1.683s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 00:07:38,2019-05-23 00:07:40,1.983s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 00:07:40,2019-05-23 00:07:40,0.100s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 00:07:40,2019-05-23 00:07:40,0.125s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 00:07:40,2019-05-23 00:07:46,5.822s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Firefox 66.0,,,2019-05-23 00:07:46,2019-05-23 00:07:51,4.598s,PASSED
+"navigateToUrl(""http://localhost:3000/explore"")",Firefox 66.0,,,2019-05-23 00:07:51,2019-05-23 00:07:53,2.696s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/Page_Explore/button_abc""), 25, OPTIONAL) == true)",Firefox 66.0,,,2019-05-23 00:07:53,2019-05-23 00:08:19,25.514s,PASSED
+else,Firefox 66.0,,,2019-05-23 00:08:19,2019-05-23 00:08:26,7.472s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Create Channel use CSV,Firefox 66.0,,,2019-05-23 00:08:26,2019-05-23 00:09:23,56.941s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 00:08:26,2019-05-23 00:08:30,3.894s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 00:08:30,2019-05-23 00:08:32,1.602s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 00:08:32,2019-05-23 00:08:34,1.718s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 00:08:34,2019-05-23 00:08:36,2.378s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 00:08:36,2019-05-23 00:08:36,0.053s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 00:08:36,2019-05-23 00:08:36,0.058s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 00:08:36,2019-05-23 00:08:41,5.165s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Firefox 66.0,,,2019-05-23 00:08:41,2019-05-23 00:08:45,4.213s,PASSED
+"navigateToUrl(""http://localhost:3000/explore"")",Firefox 66.0,,,2019-05-23 00:08:45,2019-05-23 00:08:48,2.495s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/Page_Explore/button_abc""), 25, OPTIONAL) == true)",Firefox 66.0,,,2019-05-23 00:08:48,2019-05-23 00:09:14,25.641s,PASSED
+else,Firefox 66.0,,,2019-05-23 00:09:14,2019-05-23 00:09:23,9.692s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Create Channel use CSV,Firefox 66.0,,,2019-05-23 00:09:23,2019-05-23 00:10:21,57.977s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 00:09:23,2019-05-23 00:09:28,5.150s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 00:09:28,2019-05-23 00:09:30,1.719s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 00:09:30,2019-05-23 00:09:32,1.671s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 00:09:32,2019-05-23 00:09:34,1.888s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 00:09:34,2019-05-23 00:09:34,0.065s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 00:09:34,2019-05-23 00:09:34,0.053s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 00:09:34,2019-05-23 00:09:41,7.592s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Firefox 66.0,,,2019-05-23 00:09:41,2019-05-23 00:09:46,4.553s,PASSED
+"navigateToUrl(""http://localhost:3000/explore"")",Firefox 66.0,,,2019-05-23 00:09:46,2019-05-23 00:09:49,2.732s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/Page_Explore/button_abc""), 25, OPTIONAL) == true)",Firefox 66.0,,,2019-05-23 00:09:49,2019-05-23 00:10:14,25.179s,PASSED
+else,Firefox 66.0,,,2019-05-23 00:10:14,2019-05-23 00:10:21,7.357s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Create Channel use CSV,Firefox 66.0,,,2019-05-23 00:10:21,2019-05-23 00:11:19,58.200s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 00:10:21,2019-05-23 00:10:25,3.983s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 00:10:25,2019-05-23 00:10:27,1.697s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 00:10:27,2019-05-23 00:10:29,1.793s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 00:10:29,2019-05-23 00:10:31,1.938s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 00:10:31,2019-05-23 00:10:31,0.056s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 00:10:31,2019-05-23 00:10:31,0.054s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 00:10:31,2019-05-23 00:10:38,7.214s,PASSED
+"click(findTestObject(""Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN""))",Firefox 66.0,,,2019-05-23 00:10:38,2019-05-23 00:10:43,4.754s,PASSED
+"navigateToUrl(""http://localhost:3000/explore"")",Firefox 66.0,,,2019-05-23 00:10:43,2019-05-23 00:10:47,3.732s,PASSED
+"if (verifyElementNotPresent(findTestObject(""Object Repository/Page_Explore/button_abc""), 25, OPTIONAL) == true)",Firefox 66.0,,,2019-05-23 00:10:47,2019-05-23 00:11:12,25.376s,PASSED
+else,Firefox 66.0,,,2019-05-23 00:11:12,2019-05-23 00:11:19,7.586s,PASSED
