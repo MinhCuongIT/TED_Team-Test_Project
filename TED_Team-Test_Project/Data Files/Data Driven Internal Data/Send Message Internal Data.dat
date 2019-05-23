@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Send Message Internal Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0ae240ec-258b-4335-bea5-ac10766bbc2f</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>You+should%27ve+seen+by+the+look+in+my+eyes%2C+baby</data>
+   <data>There+was+somethin+missin%27</data>
+   <data>You+should%27ve+known+by+the+tone+of+my+voice%2C+maybe</data>
+   <data>But+you+didn%27t+listen</data>
+   <data>You+played+dead%2C+but+you+never+bled</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>message</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

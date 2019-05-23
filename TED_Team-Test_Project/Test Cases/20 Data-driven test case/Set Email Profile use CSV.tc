@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Email Profile use CSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7795c211-189d-436b-871b-16a141c5cbde</testCaseGuid>
+   <variable>
+      <defaultValue>'abc@yahoo.com'</defaultValue>
+      <description></description>
+      <id>3ac56608-56f5-4fba-a9b4-4ab87e7b4346</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

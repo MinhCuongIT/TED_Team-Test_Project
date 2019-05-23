@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Up Posts use CSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43f11236-ed3f-40e8-ace8-aaa06e1a0ca3</testCaseGuid>
+   <variable>
+      <defaultValue>'default message'</defaultValue>
+      <description></description>
+      <id>293b95e0-3abe-4f51-af5e-442aefca1d7f</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+   <variable>
+      <defaultValue>'default detail'</defaultValue>
+      <description></description>
+      <id>e9d705f4-d06e-4f5b-a4fc-16759fd4443b</id>
+      <masked>false</masked>
+      <name>detail</name>
+   </variable>
+</TestCaseEntity>

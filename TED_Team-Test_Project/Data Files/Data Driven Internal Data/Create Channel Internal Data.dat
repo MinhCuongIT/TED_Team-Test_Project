@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Create Channel Internal Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d3d9e882-c858-4db9-a1cb-e7cf806deba6</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>channel+1 This+is+detail+of+channel+1</data>
+   <data>channel+12 This+is+detail+of+channel+12</data>
+   <data>channel+13 This+is+detail+of+channel+13</data>
+   <data>channel+14 This+is+detail+of+channel+14</data>
+   <data>channel+15 This+is+detail+of+channel+15</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>channel_name</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>channel_detail</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

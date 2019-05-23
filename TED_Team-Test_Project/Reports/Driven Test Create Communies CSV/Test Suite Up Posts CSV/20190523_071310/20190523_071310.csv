@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Up Posts CSV,Firefox 66.0,,,2019-05-23 07:13:12,2019-05-23 07:16:20,3m - 7.751s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Up Posts use CSV,Firefox 66.0,,,2019-05-23 07:13:12,2019-05-23 07:13:46,33.410s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 07:13:13,2019-05-23 07:13:18,5.217s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 07:13:18,2019-05-23 07:13:20,1.847s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 07:13:20,2019-05-23 07:13:22,1.905s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 07:13:22,2019-05-23 07:13:24,1.791s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 07:13:24,2019-05-23 07:13:24,0.107s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 07:13:24,2019-05-23 07:13:24,0.237s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 07:13:24,2019-05-23 07:13:28,4.441s,PASSED
+"navigateToUrl(""http://localhost:3000/abc?tab=posts"")",Firefox 66.0,,,2019-05-23 07:13:28,2019-05-23 07:13:30,1.970s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/div_click_de_hien_khung""))",Firefox 66.0,,,2019-05-23 07:13:30,2019-05-23 07:13:34,3.869s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/input_tieu_de""), message)",Firefox 66.0,,,2019-05-23 07:13:34,2019-05-23 07:13:36,1.440s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/textarea_detail""), detail)",Firefox 66.0,,,2019-05-23 07:13:36,2019-05-23 07:13:38,2.686s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_abc community/chon_channel_cuong""), ""1815d581-d824-4937-830d-d0c746093540"", true)",Firefox 66.0,,,2019-05-23 07:13:38,2019-05-23 07:13:41,2.738s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/button_Post_BaiDang""))",Firefox 66.0,,,2019-05-23 07:13:41,2019-05-23 07:13:42,0.470s,PASSED
+"click(findTestObject(""Page_message 1  abc/span_view-close_Click_De_Thoat""))",Firefox 66.0,,,2019-05-23 07:13:42,2019-05-23 07:13:46,4.214s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Up Posts use CSV,Firefox 66.0,,,2019-05-23 07:13:46,2019-05-23 07:14:16,30.051s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 07:13:46,2019-05-23 07:13:51,4.826s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 07:13:51,2019-05-23 07:13:53,1.779s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 07:13:53,2019-05-23 07:13:54,1.819s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 07:13:54,2019-05-23 07:13:56,1.705s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 07:13:56,2019-05-23 07:13:56,0.073s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 07:13:56,2019-05-23 07:13:56,0.065s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 07:13:56,2019-05-23 07:14:01,4.334s,PASSED
+"navigateToUrl(""http://localhost:3000/abc?tab=posts"")",Firefox 66.0,,,2019-05-23 07:14:01,2019-05-23 07:14:02,1.674s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/div_click_de_hien_khung""))",Firefox 66.0,,,2019-05-23 07:14:02,2019-05-23 07:14:04,2.115s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/input_tieu_de""), message)",Firefox 66.0,,,2019-05-23 07:14:04,2019-05-23 07:14:05,1.073s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/textarea_detail""), detail)",Firefox 66.0,,,2019-05-23 07:14:05,2019-05-23 07:14:10,4.686s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_abc community/chon_channel_cuong""), ""1815d581-d824-4937-830d-d0c746093540"", true)",Firefox 66.0,,,2019-05-23 07:14:10,2019-05-23 07:14:11,1.407s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/button_Post_BaiDang""))",Firefox 66.0,,,2019-05-23 07:14:11,2019-05-23 07:14:12,0.325s,PASSED
+"click(findTestObject(""Page_message 1  abc/span_view-close_Click_De_Thoat""))",Firefox 66.0,,,2019-05-23 07:14:12,2019-05-23 07:14:16,4.151s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Up Posts use CSV,Firefox 66.0,,,2019-05-23 07:14:16,2019-05-23 07:14:53,36.747s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 07:14:16,2019-05-23 07:14:20,4.187s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 07:14:20,2019-05-23 07:14:23,2.492s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 07:14:23,2019-05-23 07:14:25,2.233s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 07:14:25,2019-05-23 07:14:27,1.850s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 07:14:27,2019-05-23 07:14:27,0.121s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 07:14:27,2019-05-23 07:14:27,0.066s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 07:14:27,2019-05-23 07:14:34,7.133s,PASSED
+"navigateToUrl(""http://localhost:3000/abc?tab=posts"")",Firefox 66.0,,,2019-05-23 07:14:34,2019-05-23 07:14:38,4.117s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/div_click_de_hien_khung""))",Firefox 66.0,,,2019-05-23 07:14:38,2019-05-23 07:14:42,3.464s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/input_tieu_de""), message)",Firefox 66.0,,,2019-05-23 07:14:42,2019-05-23 07:14:43,1.124s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/textarea_detail""), detail)",Firefox 66.0,,,2019-05-23 07:14:43,2019-05-23 07:14:46,3.051s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_abc community/chon_channel_cuong""), ""1815d581-d824-4937-830d-d0c746093540"", true)",Firefox 66.0,,,2019-05-23 07:14:46,2019-05-23 07:14:48,2.556s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/button_Post_BaiDang""))",Firefox 66.0,,,2019-05-23 07:14:48,2019-05-23 07:14:49,0.324s,PASSED
+"click(findTestObject(""Page_message 1  abc/span_view-close_Click_De_Thoat""))",Firefox 66.0,,,2019-05-23 07:14:49,2019-05-23 07:14:53,4.014s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Up Posts use CSV,Firefox 66.0,,,2019-05-23 07:14:53,2019-05-23 07:15:22,29.581s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 07:14:53,2019-05-23 07:14:57,4.715s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 07:14:57,2019-05-23 07:14:59,1.794s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 07:14:59,2019-05-23 07:15:01,1.815s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 07:15:01,2019-05-23 07:15:03,1.726s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 07:15:03,2019-05-23 07:15:03,0.055s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 07:15:03,2019-05-23 07:15:03,0.061s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 07:15:03,2019-05-23 07:15:07,4.248s,PASSED
+"navigateToUrl(""http://localhost:3000/abc?tab=posts"")",Firefox 66.0,,,2019-05-23 07:15:07,2019-05-23 07:15:09,1.506s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/div_click_de_hien_khung""))",Firefox 66.0,,,2019-05-23 07:15:09,2019-05-23 07:15:11,2.056s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/input_tieu_de""), message)",Firefox 66.0,,,2019-05-23 07:15:11,2019-05-23 07:15:12,0.971s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/textarea_detail""), detail)",Firefox 66.0,,,2019-05-23 07:15:12,2019-05-23 07:15:15,3.765s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_abc community/chon_channel_cuong""), ""1815d581-d824-4937-830d-d0c746093540"", true)",Firefox 66.0,,,2019-05-23 07:15:15,2019-05-23 07:15:17,1.276s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/button_Post_BaiDang""))",Firefox 66.0,,,2019-05-23 07:15:17,2019-05-23 07:15:17,0.330s,PASSED
+"click(findTestObject(""Page_message 1  abc/span_view-close_Click_De_Thoat""))",Firefox 66.0,,,2019-05-23 07:15:17,2019-05-23 07:15:22,5.252s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Up Posts use CSV,Firefox 66.0,,,2019-05-23 07:15:22,2019-05-23 07:15:51,29.000s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 07:15:22,2019-05-23 07:15:27,4.286s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 07:15:27,2019-05-23 07:15:28,1.717s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 07:15:28,2019-05-23 07:15:30,2.016s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 07:15:30,2019-05-23 07:15:32,1.697s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 07:15:32,2019-05-23 07:15:32,0.080s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 07:15:32,2019-05-23 07:15:32,0.053s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 07:15:32,2019-05-23 07:15:37,4.467s,PASSED
+"navigateToUrl(""http://localhost:3000/abc?tab=posts"")",Firefox 66.0,,,2019-05-23 07:15:37,2019-05-23 07:15:38,1.830s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/div_click_de_hien_khung""))",Firefox 66.0,,,2019-05-23 07:15:38,2019-05-23 07:15:41,2.166s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/input_tieu_de""), message)",Firefox 66.0,,,2019-05-23 07:15:41,2019-05-23 07:15:42,1.255s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/textarea_detail""), detail)",Firefox 66.0,,,2019-05-23 07:15:42,2019-05-23 07:15:46,4.558s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_abc community/chon_channel_cuong""), ""1815d581-d824-4937-830d-d0c746093540"", true)",Firefox 66.0,,,2019-05-23 07:15:46,2019-05-23 07:15:47,0.923s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/button_Post_BaiDang""))",Firefox 66.0,,,2019-05-23 07:15:47,2019-05-23 07:15:48,0.527s,PASSED
+"click(findTestObject(""Page_message 1  abc/span_view-close_Click_De_Thoat""))",Firefox 66.0,,,2019-05-23 07:15:48,2019-05-23 07:15:51,3.406s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Up Posts use CSV,Firefox 66.0,,,2019-05-23 07:15:51,2019-05-23 07:16:19,27.525s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 07:15:51,2019-05-23 07:15:55,4.092s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Firefox 66.0,,,2019-05-23 07:15:55,2019-05-23 07:15:57,1.753s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 07:15:57,2019-05-23 07:15:59,1.772s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 07:15:59,2019-05-23 07:16:01,1.725s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 07:16:01,2019-05-23 07:16:01,0.056s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 07:16:01,2019-05-23 07:16:01,0.056s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 07:16:01,2019-05-23 07:16:05,4.392s,PASSED
+"navigateToUrl(""http://localhost:3000/abc?tab=posts"")",Firefox 66.0,,,2019-05-23 07:16:05,2019-05-23 07:16:07,1.451s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/div_click_de_hien_khung""))",Firefox 66.0,,,2019-05-23 07:16:07,2019-05-23 07:16:08,1.910s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/input_tieu_de""), message)",Firefox 66.0,,,2019-05-23 07:16:09,2019-05-23 07:16:10,1.067s,PASSED
+"setText(findTestObject(""Object Repository/Page_abc community/textarea_detail""), detail)",Firefox 66.0,,,2019-05-23 07:16:10,2019-05-23 07:16:14,4.555s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_abc community/chon_channel_cuong""), ""1815d581-d824-4937-830d-d0c746093540"", true)",Firefox 66.0,,,2019-05-23 07:16:14,2019-05-23 07:16:15,1.180s,PASSED
+"click(findTestObject(""Object Repository/Page_abc community/button_Post_BaiDang""))",Firefox 66.0,,,2019-05-23 07:16:15,2019-05-23 07:16:16,0.631s,PASSED
+"click(findTestObject(""Page_message 1  abc/span_view-close_Click_De_Thoat""))",Firefox 66.0,,,2019-05-23 07:16:16,2019-05-23 07:16:19,2.872s,PASSED

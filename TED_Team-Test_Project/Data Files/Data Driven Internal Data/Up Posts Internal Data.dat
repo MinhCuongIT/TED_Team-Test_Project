@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Up Posts Internal Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4240ba3e-e5c3-4820-b440-84c7ec20c429</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>And+though+I+know+all+about+those+men And+though+I+know+all+about+those+men</data>
+   <data>Still+I+don%27t+remember Still+I+don%27t+remember</data>
+   <data>%27Cause+it+was+us+baby%2C+way+before+then %27Cause+it+was+us+baby%2C+way+before+then</data>
+   <data>And+we%27re+still+together And+we%27re+still+together</data>
+   <data>And+I+meant%2C+every+word+I+said And+I+meant%2C+every+word+I+said</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>message post</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>detail post</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

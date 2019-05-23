@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Send Message use CSV</name>
+   <name>Send Message use Internal Data</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4c361abf-0c01-4561-bcd6-da1c88888218</testCaseGuid>
+   <testCaseGuid>a6010fb9-5801-44ba-a5ab-d4f6a75c3b53</testCaseGuid>
    <variable>
       <defaultValue>'default message'</defaultValue>
       <description></description>
-      <id>ebb9d3d9-8b28-4aac-8b75-d80cbe2cac0c</id>
+      <id>c5753c81-c60a-45c3-92b1-712815a510d0</id>
       <masked>false</masked>
       <name>message</name>
    </variable>

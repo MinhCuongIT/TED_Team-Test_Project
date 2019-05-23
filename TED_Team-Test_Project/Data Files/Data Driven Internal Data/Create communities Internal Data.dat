@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Create communities Internal Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>142ff097-62f7-47e9-bed2-cca1bba65527</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Community+0001 The+describe+of+Community+0001 company0001.com</data>
+   <data>Community+0002 The+describe+of+Community+0002 company0002.com</data>
+   <data>Community+0003 The+describe+of+Community+0003 company0003.com</data>
+   <data>Community+0004 The+describe+of+Community+0004 company0004.com</data>
+   <data>Community+0005 The+describe+of+Community+0005 company0005.com</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>comunity_name</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>describe</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>website</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

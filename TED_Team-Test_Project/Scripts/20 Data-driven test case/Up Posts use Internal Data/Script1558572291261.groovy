@@ -31,29 +31,15 @@ WebUI.navigateToUrl('http://localhost:3000/abc?tab=posts')
 
 WebUI.click(findTestObject('Object Repository/Page_abc community/div_click_de_hien_khung'))
 
-WebUI.setText(findTestObject('Object Repository/Page_abc community/input_tieu_de'), 'message demo')
+WebUI.setText(findTestObject('Object Repository/Page_abc community/input_tieu_de'), message)
 
-WebUI.setText(findTestObject('Object Repository/Page_abc community/textarea_detail'), 'details demo')
+WebUI.setText(findTestObject('Object Repository/Page_abc community/textarea_detail'), detail)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_abc community/chon_channel_cuong'), '1815d581-d824-4937-830d-d0c746093540', 
     true)
 
-WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post'))
+WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post_BaiDang'))
 
 WebUI.click(findTestObject('Page_message 1  abc/span_view-close_Click_De_Thoat'))
 
-// Thêm bộ dữ liệu 
-def names = ((['Cường', 'Duy', 'Mạnh', 'Quốc', 'Phong', 'Sơn', 'Thắm', 'Phượng', 'Hải', 'Xuân', 'Lan', 'Mai', 'Thu', 'Cúc']) as String[])
-
-for (def name : names) {
-    WebUI.click(findTestObject('Object Repository/Page_abc community/div_click_de_hien_khung'))
-
-    WebUI.setText(findTestObject('Object Repository/Page_abc community/input_tieu_de'), 'message ' + name)
-
-    WebUI.setText(findTestObject('Object Repository/Page_abc community/textarea_detail'), 'Tieu de ' + name)
-
-    WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post_BaiDang'))
-
-    WebUI.click(findTestObject('Page_message 1  abc/span_view-close_Click_De_Thoat'))
-}
-
+//test done!

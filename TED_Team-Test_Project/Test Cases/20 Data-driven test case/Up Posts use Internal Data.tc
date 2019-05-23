@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Up Posts use Internal Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5efb6b39-c313-486a-ba08-6c431e980aff</testCaseGuid>
+   <variable>
+      <defaultValue>'default message'</defaultValue>
+      <description></description>
+      <id>9780d467-0ae8-42e1-b525-0dcf62291ef1</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+   <variable>
+      <defaultValue>'default detail'</defaultValue>
+      <description></description>
+      <id>fb3bf685-738d-4078-8eaf-c58c967ff304</id>
+      <masked>false</masked>
+      <name>detail</name>
+   </variable>
+</TestCaseEntity>

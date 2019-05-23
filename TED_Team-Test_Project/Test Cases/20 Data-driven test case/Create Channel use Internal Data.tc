@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Channel use Internal Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25cd66e8-f2b8-48c7-8aa5-9ce360ae636e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5fbabf62-9915-4644-ad01-56f66ac0e119</id>
+      <masked>false</masked>
+      <name>channel_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3624560-50d6-449e-8da2-e21cab2ddb45</id>
+      <masked>false</masked>
+      <name>channel_detail</name>
+   </variable>
+</TestCaseEntity>

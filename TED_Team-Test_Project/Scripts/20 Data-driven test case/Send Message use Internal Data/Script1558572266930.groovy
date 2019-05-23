@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:3000/')
+WebUI.navigateToUrl('http://127.0.0.1:3000/')
 
 WebUI.click(findTestObject('Page_Spectrum/button_Log in or sign up'))
 
@@ -27,33 +27,13 @@ WebUI.setEncryptedText(findTestObject('Page_Sign in to GitHub  GitHub/input_Forg
 
 WebUI.click(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
 
-WebUI.navigateToUrl('http://localhost:3000/abc?tab=posts')
+WebUI.navigateToUrl('http://localhost:3000/spectrum?tab=posts')
 
-WebUI.click(findTestObject('Object Repository/Page_abc community/div_click_de_hien_khung'))
+WebUI.click(findTestObject('Object Repository/Page_Spectrum community/span_blocked-user_click'))
 
-WebUI.setText(findTestObject('Object Repository/Page_abc community/input_tieu_de'), 'message demo')
+WebUI.click(findTestObject('Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong'))
 
-WebUI.setText(findTestObject('Object Repository/Page_abc community/textarea_detail'), 'details demo')
+WebUI.setText(findTestObject('Page_Spectrum community/textarea_hell'), message)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_abc community/chon_channel_cuong'), '1815d581-d824-4937-830d-d0c746093540', 
-    true)
-
-WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post'))
-
-WebUI.click(findTestObject('Page_message 1  abc/span_view-close_Click_De_Thoat'))
-
-// Thêm bộ dữ liệu 
-def names = ((['Cường', 'Duy', 'Mạnh', 'Quốc', 'Phong', 'Sơn', 'Thắm', 'Phượng', 'Hải', 'Xuân', 'Lan', 'Mai', 'Thu', 'Cúc']) as String[])
-
-for (def name : names) {
-    WebUI.click(findTestObject('Object Repository/Page_abc community/div_click_de_hien_khung'))
-
-    WebUI.setText(findTestObject('Object Repository/Page_abc community/input_tieu_de'), 'message ' + name)
-
-    WebUI.setText(findTestObject('Object Repository/Page_abc community/textarea_detail'), 'Tieu de ' + name)
-
-    WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post_BaiDang'))
-
-    WebUI.click(findTestObject('Page_message 1  abc/span_view-close_Click_De_Thoat'))
-}
+WebUI.click(findTestObject('Object Repository/Page_Spectrum community/button_Send'))
 

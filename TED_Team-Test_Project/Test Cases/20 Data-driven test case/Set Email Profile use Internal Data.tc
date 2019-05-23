@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set Email Profile use Internal Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e104d258-a44b-4b1b-a898-84c069d20a97</testCaseGuid>
+   <variable>
+      <defaultValue>'abc@yahoo.com'</defaultValue>
+      <description></description>
+      <id>8a3e1c70-d687-453b-ab4c-663216f182f1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

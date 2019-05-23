@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Send Message Internal Data,Firefox 66.0,,,2019-05-23 08:10:19,2019-05-23 08:14:02,3m - 42.940s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Send Message use Internal Data,Firefox 66.0,,,2019-05-23 08:10:19,2019-05-23 08:11:07,47.412s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 08:10:20,2019-05-23 08:10:25,5.344s,PASSED
+"navigateToUrl(""http://127.0.0.1:3000/"")",Firefox 66.0,,,2019-05-23 08:10:25,2019-05-23 08:10:27,1.534s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 08:10:27,2019-05-23 08:10:35,8.663s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 08:10:35,2019-05-23 08:10:53,17.401s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 08:10:53,2019-05-23 08:10:53,0.079s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 08:10:53,2019-05-23 08:10:53,0.155s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 08:10:53,2019-05-23 08:10:58,4.765s,PASSED
+"navigateToUrl(""http://localhost:3000/spectrum?tab=posts"")",Firefox 66.0,,,2019-05-23 08:10:58,2019-05-23 08:11:00,2.041s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/span_blocked-user_click""))",Firefox 66.0,,,2019-05-23 08:11:00,2019-05-23 08:11:04,4.211s,PASSED
+"click(findTestObject(""Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong""))",Firefox 66.0,,,2019-05-23 08:11:04,2019-05-23 08:11:05,0.869s,PASSED
+"setText(findTestObject(""Page_Spectrum community/textarea_hell""), message)",Firefox 66.0,,,2019-05-23 08:11:05,2019-05-23 08:11:06,1.503s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Send""))",Firefox 66.0,,,2019-05-23 08:11:06,2019-05-23 08:11:07,0.388s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Send Message use Internal Data,Firefox 66.0,,,2019-05-23 08:11:07,2019-05-23 08:11:51,44.251s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 08:11:07,2019-05-23 08:11:11,4.058s,PASSED
+"navigateToUrl(""http://127.0.0.1:3000/"")",Firefox 66.0,,,2019-05-23 08:11:11,2019-05-23 08:11:12,1.505s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 08:11:12,2019-05-23 08:11:27,14.403s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 08:11:27,2019-05-23 08:11:35,8.286s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 08:11:35,2019-05-23 08:11:35,0.065s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 08:11:35,2019-05-23 08:11:35,0.108s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 08:11:35,2019-05-23 08:11:41,5.668s,PASSED
+"navigateToUrl(""http://localhost:3000/spectrum?tab=posts"")",Firefox 66.0,,,2019-05-23 08:11:41,2019-05-23 08:11:43,2.429s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/span_blocked-user_click""))",Firefox 66.0,,,2019-05-23 08:11:43,2019-05-23 08:11:49,5.321s,PASSED
+"click(findTestObject(""Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong""))",Firefox 66.0,,,2019-05-23 08:11:49,2019-05-23 08:11:50,1.075s,PASSED
+"setText(findTestObject(""Page_Spectrum community/textarea_hell""), message)",Firefox 66.0,,,2019-05-23 08:11:50,2019-05-23 08:11:51,0.954s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Send""))",Firefox 66.0,,,2019-05-23 08:11:51,2019-05-23 08:11:51,0.361s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Send Message use Internal Data,Firefox 66.0,,,2019-05-23 08:11:51,2019-05-23 08:12:36,44.946s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 08:11:51,2019-05-23 08:11:56,4.533s,PASSED
+"navigateToUrl(""http://127.0.0.1:3000/"")",Firefox 66.0,,,2019-05-23 08:11:56,2019-05-23 08:11:58,2.071s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 08:11:58,2019-05-23 08:12:06,8.275s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 08:12:06,2019-05-23 08:12:20,13.812s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 08:12:20,2019-05-23 08:12:20,0.061s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 08:12:20,2019-05-23 08:12:20,0.058s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 08:12:20,2019-05-23 08:12:24,4.573s,PASSED
+"navigateToUrl(""http://localhost:3000/spectrum?tab=posts"")",Firefox 66.0,,,2019-05-23 08:12:24,2019-05-23 08:12:27,2.780s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/span_blocked-user_click""))",Firefox 66.0,,,2019-05-23 08:12:27,2019-05-23 08:12:32,4.965s,PASSED
+"click(findTestObject(""Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong""))",Firefox 66.0,,,2019-05-23 08:12:32,2019-05-23 08:12:33,1.120s,PASSED
+"setText(findTestObject(""Page_Spectrum community/textarea_hell""), message)",Firefox 66.0,,,2019-05-23 08:12:33,2019-05-23 08:12:35,1.493s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Send""))",Firefox 66.0,,,2019-05-23 08:12:35,2019-05-23 08:12:36,1.193s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Send Message use Internal Data,Firefox 66.0,,,2019-05-23 08:12:36,2019-05-23 08:13:20,43.989s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 08:12:36,2019-05-23 08:12:41,4.658s,PASSED
+"navigateToUrl(""http://127.0.0.1:3000/"")",Firefox 66.0,,,2019-05-23 08:12:41,2019-05-23 08:12:43,2.000s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 08:12:43,2019-05-23 08:12:54,11.237s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 08:12:54,2019-05-23 08:13:06,11.998s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 08:13:06,2019-05-23 08:13:06,0.055s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 08:13:06,2019-05-23 08:13:06,0.057s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 08:13:06,2019-05-23 08:13:11,5.154s,PASSED
+"navigateToUrl(""http://localhost:3000/spectrum?tab=posts"")",Firefox 66.0,,,2019-05-23 08:13:11,2019-05-23 08:13:13,2.125s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/span_blocked-user_click""))",Firefox 66.0,,,2019-05-23 08:13:13,2019-05-23 08:13:18,4.337s,PASSED
+"click(findTestObject(""Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong""))",Firefox 66.0,,,2019-05-23 08:13:18,2019-05-23 08:13:18,0.845s,PASSED
+"setText(findTestObject(""Page_Spectrum community/textarea_hell""), message)",Firefox 66.0,,,2019-05-23 08:13:18,2019-05-23 08:13:19,1.074s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Send""))",Firefox 66.0,,,2019-05-23 08:13:19,2019-05-23 08:13:20,0.435s,PASSED
+,,,,,,,
+Test Cases/20 Data-driven test case/Send Message use Internal Data,Firefox 66.0,,,2019-05-23 08:13:20,2019-05-23 08:14:01,40.977s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-23 08:13:20,2019-05-23 08:13:24,4.228s,PASSED
+"navigateToUrl(""http://127.0.0.1:3000/"")",Firefox 66.0,,,2019-05-23 08:13:24,2019-05-23 08:13:26,1.469s,PASSED
+"click(findTestObject(""Page_Spectrum/button_Log in or sign up""))",Firefox 66.0,,,2019-05-23 08:13:26,2019-05-23 08:13:38,12.141s,PASSED
+"click(findTestObject(""Page_Spectrum/span_Sign in with GitHub""))",Firefox 66.0,,,2019-05-23 08:13:38,2019-05-23 08:13:47,8.933s,PASSED
+"setText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Username or email address_login""), ""minhcuongit"")",Firefox 66.0,,,2019-05-23 08:13:47,2019-05-23 08:13:47,0.059s,PASSED
+"setEncryptedText(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_password""), ""9e5/e4jZbrkRPxL/am/6uYGu2iBUrIMS"")",Firefox 66.0,,,2019-05-23 08:13:47,2019-05-23 08:13:47,0.054s,PASSED
+"click(findTestObject(""Page_Sign in to GitHub  GitHub/input_Forgot password_commit""))",Firefox 66.0,,,2019-05-23 08:13:47,2019-05-23 08:13:52,4.761s,PASSED
+"navigateToUrl(""http://localhost:3000/spectrum?tab=posts"")",Firefox 66.0,,,2019-05-23 08:13:52,2019-05-23 08:13:54,2.049s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/span_blocked-user_click""))",Firefox 66.0,,,2019-05-23 08:13:54,2019-05-23 08:13:58,4.617s,PASSED
+"click(findTestObject(""Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong""))",Firefox 66.0,,,2019-05-23 08:13:58,2019-05-23 08:13:59,0.950s,PASSED
+"setText(findTestObject(""Page_Spectrum community/textarea_hell""), message)",Firefox 66.0,,,2019-05-23 08:13:59,2019-05-23 08:14:00,1.045s,PASSED
+"click(findTestObject(""Object Repository/Page_Spectrum community/button_Send""))",Firefox 66.0,,,2019-05-23 08:14:00,2019-05-23 08:14:01,0.659s,PASSED

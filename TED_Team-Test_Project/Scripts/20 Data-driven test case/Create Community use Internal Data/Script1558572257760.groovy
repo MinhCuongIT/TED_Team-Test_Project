@@ -27,33 +27,24 @@ WebUI.setEncryptedText(findTestObject('Page_Sign in to GitHub  GitHub/input_Forg
 
 WebUI.click(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
 
-WebUI.navigateToUrl('http://localhost:3000/abc?tab=posts')
+WebUI.click(findTestObject('Page_Spectrum community/img_Explore_style__Img-u3znqr-3 kJsvJN'))
 
-WebUI.click(findTestObject('Object Repository/Page_abc community/div_click_de_hien_khung'))
+WebUI.navigateToUrl('http://localhost:3000/new/community')
 
-WebUI.setText(findTestObject('Object Repository/Page_abc community/input_tieu_de'), 'message demo')
+WebUI.setText(findTestObject('Object Repository/Page_New community/input_What is your community called_style__StyledInput-sc-17zryot-2 jHXlSy'), 
+    community_name)
 
-WebUI.setText(findTestObject('Object Repository/Page_abc community/textarea_detail'), 'details demo')
+WebUI.setText(findTestObject('Object Repository/Page_New community/textarea_dd'), describe)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_abc community/chon_channel_cuong'), '1815d581-d824-4937-830d-d0c746093540', 
-    true)
+WebUI.setText(findTestObject('Object Repository/Page_New community/input_Optional Add your communitys website_style__StyledInput-sc-17zryot-2 jHXlSy'), 
+    website)
 
-WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post'))
+WebUI.click(findTestObject('Object Repository/Page_New community/div_checkboxI have read the Spectrum Code of Conduct and agree to enforce it in my community'))
 
-WebUI.click(findTestObject('Page_message 1  abc/span_view-close_Click_De_Thoat'))
+WebUI.click(findTestObject('Object Repository/Page_New community/button_Create Community  Continue'))
 
-// Thêm bộ dữ liệu 
-def names = ((['Cường', 'Duy', 'Mạnh', 'Quốc', 'Phong', 'Sơn', 'Thắm', 'Phượng', 'Hải', 'Xuân', 'Lan', 'Mai', 'Thu', 'Cúc']) as String[])
+WebUI.click(findTestObject('Object Repository/Page_New community/button_Skip this step'))
 
-for (def name : names) {
-    WebUI.click(findTestObject('Object Repository/Page_abc community/div_click_de_hien_khung'))
+WebUI.click(findTestObject('Object Repository/Page_New community/button_Go to my community'))
 
-    WebUI.setText(findTestObject('Object Repository/Page_abc community/input_tieu_de'), 'message ' + name)
-
-    WebUI.setText(findTestObject('Object Repository/Page_abc community/textarea_detail'), 'Tieu de ' + name)
-
-    WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post_BaiDang'))
-
-    WebUI.click(findTestObject('Page_message 1  abc/span_view-close_Click_De_Thoat'))
-}
-
+//Test done!
