@@ -29,7 +29,9 @@ WebUI.click(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password
 
 WebUI.navigateToUrl('http://localhost:3000/spectrum?tab=posts')
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum community/button_Message'))
+WebUI.click(findTestObject('Object Repository/Page_Spectrum community/span_blocked-user_click'))
+
+WebUI.click(findTestObject('Object Repository/Page_Blocked user  blocked-user/button_Message_Ben_Trong'))
 
 def names = ((['Cường', 'Duy', 'Mạnh', 'Quốc', 'Phong', 'Sơn', 'Thắm', 'Phượng', 'Hải', 'Xuân', 'Lan', 'Mai', 'Thu', 'Cúc']) as String[])
 

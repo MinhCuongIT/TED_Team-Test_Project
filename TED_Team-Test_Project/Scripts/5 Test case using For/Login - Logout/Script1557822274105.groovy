@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_TRN MINH CNG  tranminhcuong/b
 WebUI.click(findTestObject('Object Repository/Page_My settings/button_Log out'))
 
 //Lặp đăng nhập và đăng xuất 10 lần
-for(int i = 1; i <= 10; i++){
+for(int i = 1; i <= 5; i++){
 	WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Log in or sign up'))
 	
 	WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with GitHub'))
